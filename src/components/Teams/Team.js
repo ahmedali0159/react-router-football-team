@@ -12,7 +12,7 @@ const Team = (props) => {
   }
   return (
     <div className="container col-md-4">
-      <div className=" text-center team-style container card" style={{ width: "18rem", height:"450px" }}>
+      <div className=" text-center team-style container card" style={{ width: "14rem", height:"400px" }}>
         <img src={strTeamBadge} className="  card-img-top" alt="" />
         <div className="card-body">
           <h5 className="card-title">{strTeam}</h5>
