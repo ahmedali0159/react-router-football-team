@@ -11,7 +11,7 @@ const Team = (props) => {
   history.push(url);
   }
   return (
-    <div className="col-md-4">
+    <div className=" col-md-4">
       <div className=" text-center team-style container card" style={{ width: "15rem", height:"400px" }}>
         <img src={strTeamBadge} className="  card-img-top" alt="" />
         <div className="card-body">
